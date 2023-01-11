@@ -1,1 +1,145 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nachman Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+<div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">GROUP <i class="fa fa-caret-down"></i></button>     <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">People</a>
+        <a href="News.html" class="w3-bar-item w3-button">News</a>
+        <a href="#" class="w3-bar-item w3-button">Openings</a>
+        <a href="#" class="w3-bar-item w3-button">Meetings</a>
+      </div>
+    </div> 
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">RESEARCH <i class="fa fa-caret-down"></i></button>     <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Publications</a>
+        <a href="#" class="w3-bar-item w3-button">Other Documents</a>
+        <a href="#" class="w3-bar-item w3-button">Public Plots</a>
+      </div>
+    </div> 
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">TALKS <i class="fa fa-caret-down"></i></button>     <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Local Seminars</a>
+        <a href="#" class="w3-bar-item w3-button">Workshop Organization</a>
+        <a href="#" class="w3-bar-item w3-button">Conference Presentations</a>
+        <a href="#" class="w3-bar-item w3-button">Colloquia</a>
+        <a href="#" class="w3-bar-item w3-button">Seminars</a>
+        <a href="#" class="w3-bar-item w3-button">Posters</a>
+      </div>
+    </div> 
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEACHING</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Header4.png" style="width:100%">
+  </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;margin-top:-50px" id="band">
+    <h3 class="w3-wide">We approach fundamental physics challenges through the lens of modern machine learning.</h3>
+    <h4 class="w3-wide"><i>see the latest news <a href="news.html">here</a>!</i></h4>
+      <br>
+
+<center>
+<a href="pictures/GroupPhoto_Fall2022_smaller2.jpeg"><img src="pictures/GroupPhoto_Fall2022_smaller3.jpeg" width="500px" border="1" style="color:#000000;"></a><br><br>
+</center>
+
+    <p class="w3-justify">Our research aims to identify the distance scale of fundamental interactions and understand how other scales emerge. A model system that our group often studies is the strong force, which displays emergent complex quantum phenomena at high energies manifested in the form of jets. Jets are collimated sprays of particles that result from high energy quarks and gluons. These objects are challenging to measure experimentally and difficult to analyze statistically. Jets and many other phenomena in fundamental physics naturally live in high-dimensional phase spaces that are impossible to explore with traditional methods. We call this the hyper challenge: going beyond multivariate analysis to discover new patterns by treating data holistically in their natural high dimensionality. Complex detectors measure these data using the equivalent of hyperspectral cameras and new methods have the potential to qualitatively change data analysis for high energy physics and beyond. This work spans two areas of research:</p>
+
+    <p>
+
+      <h4 class="w3-wide">Likelihood-free Deep Learning</h4>
+
+<p class="w3-justify">Data analysis in fundamental physics experiments relies heavily on complex simulations in order to connect fundamental theories to observable quantities. These simulations span an impressive dynamic range in energy and encode a vast set of formal and phenomenological physics models. However, we often do not know the probability density of the data explicitly because of the hyper challenge. Instead, we can sample from our simulators to produce realistic data. Likelihood-free learning is a set of tools to fully utilize our data without ever explicitly constructing their probability density. </p>
+
+<h4 class="w3-wide">Label-free Deep learning</h4>
+
+<p class="w3-justify">While simulations are a critical aspect of analysis with fundamental physics experiments, many science questions require simulation-independent methods. This occurs when simulations are too expensive, are intractable, or are unreliable. This is often the case when probing extreme regions of phase space. In these situations, the strategy shifts from using simulation to learning directly from data. Due to the size, high-dimensionality, or quantum nature of experimental datasets, it is often not possible to know the generative process for a particular datum. As a result, one must go beyond traditional supervised methods for hypervariate analysis with deep learning. To this end, we are researching label-free learning methods that can deploy less-than-supervised techniques directly on unlabeled data.</p>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<!--footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"-->
+  <!--i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i-->
+<!--/footer-->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
