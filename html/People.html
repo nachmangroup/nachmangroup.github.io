@@ -4,9 +4,9 @@
 <title>Nachman Group</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/font.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/font.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -40,6 +40,56 @@ div.paperbuttons {
 .button5:hover {
   background-color: #555555;
   color: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: white;
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 0px;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: white;
+}
+
+  .crop {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .crop img {
+        width: 400px;
+        height: 300px;
+        margin: -75px 0 0 -100px;
+    }
+
+.negativespace {
+ margin-top: -15px; 
+}
+.positivespace {
+ margin-top:5px; 
 }
 
 </style>
@@ -96,60 +146,59 @@ div.paperbuttons {
 <div id="left">
 <div class="negativespace"></div>
 <br>
-<center><h1><font color=#000000>Nachman Group @ Berkeley Lab</font></h1></center>
+<center><h1 class="w3"><font color=#000000>Group Members</font></h1></center>
 
 <div class="row">
   <div class="column">
     
 <center>
-<!--img src="imgs/unspecified.jpeg" width="200"-->
-<img src="pictures/IMG_3214.jpeg" width="200">
-
-<h2>Group leader:</h2> 
-<div class="negativespace"></div>
-<h2>Benjamin P. Nachman</h2>
-<p>Staff Scientist</p>
-<div class="negativespace"></div>
-<p><a href="https://www.physics.lbl.gov" style="color:#990000;">Physics Division, Berkeley Lab</a></p>
-<p>Research Affiliate</p>
-<div class="negativespace"></div>
-<p><a href="https://bids.berkeley.edu/people/benjamin-nachman" style="color:#990000;">Berkeley Institute for Data Science</a></p>
-<a href="mailto:bpnachman@lbl.gov"><img src="icons/email.png" width=35px></a>
-<a href="https://inspirehep.net/authors/1067995"><img src="icons/inspire.png" width=35px></a>
-<a href="https://twitter.com/BPNachman"><img src="icons/twitter.png" width=35px></a>
-<a href="https://www.linkedin.com/in/benjamin-nachman-88495969/"><img src="icons/linkedin.png" width=35px></a>
-<a href="https://scholar.google.com/citations?hl=en&user=4CpTP8YAAAAJ"><img src="icons/googlescholar.jpeg" width=35px></a>
+<img src="https://lh4.googleusercontent.com/GhVCpsMR45dNB4E4DwQwcsQFUnASEHyiwdQzdh_72OXBxSoAgEPkPGXts4DmvPnAaWXGFpztF6zsBQwibrqP2vM-22sKIrLQIOdMDGnXHF6b9ADgRt-B-Eg7lcPh10XSz7nZnizyZ74Jlx44PPj2yLW2p9pV9D2EnCclr9sYSmoBtyYMwKip6yVyZRETbpfA=w1280" width="80%">
 </center>
+<br>
+ A native of Omaha, Nebraska and a <a href="https://today.lbl.gov/2017/09/19/postdoc-appreciation-week-10-things-to-know-about-ben-nachman/" style="color:#990000;">squirrel watching enthusiast</a>, when I'm not working on physics, you may find me running or gardening!</i>
+
+
 
   </div>
   <div class="column">
     
-    A native of Omaha, Nebraska and a <a href="https://today.lbl.gov/2017/09/19/postdoc-appreciation-week-10-things-to-know-about-ben-nachman/" style="color:#990000;">squirrel watching enthusiast</a>, when I'm not working on physics, you may find me running or gardening! <i class="fas fa-envelope"></i>
+    <center>
+<h4><b>Group Leader: Dr. Benjamin P. Nachman</b></h4>
+<center>
+<a href="mailto:bpnachman@lbl.gov"><img src="../icons/email.png" width=35px></a>
+<a href="https://inspirehep.net/authors/1067995"><img src="../icons/inspire.png" width=35px></a>
+<a href="https://twitter.com/BPNachman"><img src="../icons/twitter.png" width=35px></a>
+<a href="https://www.linkedin.com/in/benjamin-nachman-88495969/"><img src="../icons/linkedin.png" width=35px></a>
+<a href="https://scholar.google.com/citations?hl=en&user=4CpTP8YAAAAJ"><img src="../icons/googlescholar.jpeg" width=35px></a>
+</center>
+</center>
+<p>Staff Scientist, <a href="https://www.physics.lbl.gov" style="color:#990000;">Physics Division, Berkeley Lab</a></p>
+<div class="negativespace"></div>
+<p>Research Affiliate, <a href="https://bids.berkeley.edu/people/benjamin-nachman" style="color:#990000;">Berkeley Institute for Data Science</a>
+  <div class="negativespace"></div>
+<p>Research Associate, <a href="https://physics.berkeley.edu" style="color:#990000;">UC Berkeley Department of Physics</a>
+</p>
 
-    <br><br>
+
 
     <center>
-    <font size=5>Brief Academic History</font>
+      <h4><b>Brief Academic History</b></h4>
     </center>
     <ul>
     	<li>Chamberlain Postdoctoral Fellow<br>
-    		<font color="#9C9C9C">Lawrence Berkeley National Laboratory, 2016-2020</font><br>
+    		<font color="#9C9C9C">Lawrence Berkeley National Laboratory, 2016-2020</font>
     	</li>
-      <br>
+      
       <li>Research Fellow<br>
-        <font color="#9C9C9C">Simons Institute for the Theory of Computing, 2018</font><br>
+        <font color="#9C9C9C">Simons Institute for the Theory of Computing, 2018</font>
       </li>
-    </ul>
-    <ul class="square">
 	  <li>Ph.D. in Physics, minor in Statistics<br>
-	  	<font color="#9C9C9C">Stanford University, 2016</font><br>
-	  	<font color="#9C9C9C">Advisers: <a href="https://www.slac.stanford.edu/~sudong/" style="text-decoration: none;"><font color="#515050">Su Dong</font></a> and <a href="https://profiles.stanford.edu/ariel-schwartzman" style="text-decoration: none;"><font color="#515050">Ariel Schwartzman</font></a></font><br>
-	  	<font color="#9C9C9C">Thesis: </font><a href="https://cds.cern.ch/record/2204912",style="text-decoration: none;"><font color="#9C9C9C">CERN-THESIS-2016-083</font></a>
-	  </li><br>
+	  	<font color="#9C9C9C">Stanford University, 2016</font>
+	  </li>
 	  <li>MASt in Applied Mathematics<br>
 	  	<font color="#9C9C9C">Cambridge University, 2013</font><br>
 	  	<font color="#9C9C9C">Churchill Scholarship</font><br>
-	  </li><br>
+	  </li>
 	  <li>B.A. in Physics, Mathematics, Economics<br>
 	  	<font color="#9C9C9C">Cornell University, 2012</font><br>
 	  </li>
@@ -172,31 +221,34 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/Aishik.jpeg" width="150">
-  <h3>Aishik Ghosh</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Aishik.jpeg" width="80%">
+  <h3>Dr. Aishik Ghosh</h3>
     <div class="negativespace"></div>
-    UC Irvine Postdoc<br> (Berkeley Lab visitor)<br>
-    Machine Learning Methods<br>   
+    UC Irvine / LBNL Postdoc<br> 
+    </center>
+
+    <center>
+<a href="mailto:aishikghosh@lbl.gov"><img src="../icons/email.png" width=35px></a>
+<a href="https://inspirehep.net/authors/1631279"><img src="../icons/inspire.png" width=35px></a>
+<a href="https://twitter.com/aishik_ghosh_"><img src="../icons/twitter.png" width=35px></a>
+</center>
+  </div>
+
+    <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/ElhamEKhoda.jpeg" width="78%">
+  <h3>Dr. Elham Khoda</h3>
+    <div class="negativespace"></div>
+    U. Washington Postdoc<br> (Berkeley Lab visitor)<br> 
     </center>
   </div>
 
     <div class="column2">
     <center>
-    <img src="pictures/ElhamEKhoda.jpeg" width="145">
-  <h3>Elham Khoda</h3>
-    <div class="negativespace"></div>
-    U. Washington Postdoc<br> (Berkeley Lab visitor)<br>
-    Machine Learning Methods<br>   
-    </center>
-  </div>
-
-    <div class="column2">
-    <center>
-    <img src="pictures/vinicius.jpeg" width="143">
-  <h3>Vinicius Mikuni</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/vinicius.jpeg" width="76%">
+  <h3>Dr. Vinicius Mikuni</h3>
     <div class="negativespace"></div>
     NESAP Fellow<br>
-    Machine Learning Methods<br>   
     </center>
   </div>
 
@@ -206,22 +258,25 @@ div.paperbuttons {
 
     <div class="column2">
     <center>
-    <img src="pictures/MPettee_Photo-600x750.jpeg" width="145">
-  <h3>Mariel Pettee</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/MPettee_Photo-600x750.jpeg" width="80%">
+  <h3>Dr. Mariel Pettee</h3>
     <div class="negativespace"></div>
-    Chamberlain Fellow<br>
-    Machine Learning Methods<br>   
+    Chamberlain Fellow<br> 
     </center>
+        <center>
+<a href="mailto:mpettee@lbl.gov"><img src="../icons/email.png" width=35px></a>
+<a href="https://mariel-pettee.github.io"><img src="../icons/website.jpeg" width=35px></a>
+<a href="https://twitter.com/marielpettee"><img src="../icons/twitter.png" width=35px></a>
+</center>
   </div>
 
   <div class="row">
     <div class="column2">
     <center>
-    <img src="pictures/Fernando_smaller.jpg" width="134">
-  <h3>Fernando Torales Acosta</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Fernando_smaller.jpg" width="73%">
+  <h3>Dr. Fernando Torales Acosta</h3>
     <div class="negativespace"></div>
     Postdoctoral Fellow<br>
-    Machine Learning in DIS<br>   
     </center>
   </div>
 
@@ -236,31 +291,28 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/JayChan_smaller.jpg" width="148">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/JayChan_smaller.jpg" width="72%">
   <h3>Jay Chan</h3>
     <div class="negativespace"></div>
-    U. Wisconsin (Visiting)<br>
-    Machine Learning Methods<br>   
+    U. Wisconsin (Visiting)<br> 
     </center>
   </div>
 
   <div class="column2">
     <center>
-    <img src="pictures/Krish.jpg" width="164">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Krish.jpg" width="80%">
   <h3>Krish Desai</h3>
     <div class="negativespace"></div>
-    UCB Graduate Student<br>
-    Machine Learning Methods<br>   
+    3rd year UCB Graduate Student<br> 
     </center>
   </div>
 
     <div class="column2">
     <center>
-    <img src="pictures/Haoxing_smaller.jpg" width="155">
-  <h3>Haoxing Du</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/matan.jpg" width="79%">
+  <h3>Matan Grinberg</h3>
     <div class="negativespace"></div>
-    UCB Graduate Student (rotation)<br>
-    Neural Density Estimation<br>   
+    2nd year UCB Graduate Student<br>
     </center>
   </div>
 
@@ -272,33 +324,23 @@ div.paperbuttons {
 
 <div class="row">
 
-    <div class="column2">
-    <center>
-    <img src="pictures/matan.jpg" width="161">
-  <h3>Matan Grinberg</h3>
-    <div class="negativespace"></div>
-    UCB Graduate Student<br>
-    Machine Learning Methods<br>
-    </center>
-  </div>
+
 
   <div class="column2">
     <center>
-    <img src="pictures/Radha.jpeg" width="170">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Radha.jpeg" width="80%">
   <h3>Radha Mastandrea</h3>
     <div class="negativespace"></div>
-    UCB Graduate Student<br>
-    Anomaly Detection<br>   
+    2nd year UCB Graduate Student<br>
     </center>
   </div>
 
     <div class="column2">
     <center>
-    <img src="pictures/photo_Jing.jpeg" width="150">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/photo_Jing.jpeg" width="70%">
   <h3>Jingjing Pan</h3>
     <div class="negativespace"></div>
-    Yale Graduate Student (visiting)<br>
-    Unfolding/QCD<br>   
+    Yale Graduate Student (visiting)<br> 
     </center>
   </div>
 
@@ -312,23 +354,14 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/shahzar_photo.jpeg" width="155">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/shahzar_photo.jpeg" width="80%">
   <h3>Shahzar</h3>
     <div class="negativespace"></div>
-    Summer Researcher<br> <!-- (Fall 2021) -->
-    Likelihood Ratio Methods<br>   
+   UCB Masters Student<br> <!-- (Fall 2021) --> 
     </center>
   </div>
 
-  <div class="column2">
-    <center>
-    <img src="pictures/Yao.jpeg" width="164">
-  <h3>Yao Xu</h3>
-    <div class="negativespace"></div>
-    Former SULI Intern<br> <!-- (Fall 2021) -->
-    OmniFold R&D<br>   
-    </center>
-  </div>
+
 
 </div>
 
@@ -340,11 +373,10 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/SulaimanPhoto.JPG" width="164">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/SulaimanPhoto.JPG" width="80%">
   <h3>Sulaiman Alvi</h3>
     <div class="negativespace"></div>
     UCB Undergraduate<br>
-    Quantum Algorithms<br>   
     </center>
   </div>
 
@@ -352,21 +384,20 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/mingfong.jpeg" width="160">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/mingfong.jpeg" width="80%">
   <h3>Ming Fong</h3>
     <div class="negativespace"></div>
     UCB Undergraduate<br>
-    ML for Pion Reconstruction<br>   
     </center>
   </div>
 
-    <div class="column2">
+
+  <div class="column2">
     <center>
-    <img src="pictures/normankarr.jpeg" width="168">
-  <h3>Norman Karr</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/IMG_1378.jpeg" width="75%"><br>
+    <h3>Sowmya Thanvantri</h3>
     <div class="negativespace"></div>
     UCB Undergraduate<br>
-    ML for Anomaly Detection<br>    
     </center>
   </div>
 
@@ -375,32 +406,6 @@ div.paperbuttons {
 <br>
 
 
-  <div class="row">
-
-   <div class="column2">
-    <center>
-    <img src="pictures/MVIMG_20191110_150853~2.jpg" width="173">
-  <h3>Jerry Lai</h3>
-    <div class="negativespace"></div>
-    UCB Undergraduate<br>
-    ML Anomaly Detection<br>  
-    </center>
-  </div> 
-
-
-
-
-
-  <div class="column2">
-    <center>
-    <img src="pictures/IMG_1378.jpeg" width="155"><br>
-    <h3>Sowmya Thanvantri</h3>
-    <div class="negativespace"></div>
-    UCB Undergraduate<br>
-    ML Anomaly Detection<br>
-    </center>
-  </div>
-    </div>
 
 
 <center>
@@ -408,148 +413,47 @@ div.paperbuttons {
 </center>
 
 <center>
-<h3>Undergraduates</h3>
+<h3>Graduate Students</h3>
 </center>
 
 <div class="row">
 
-  <div class="column2">
+<div class="column2">
     <center>
-    <img src="pictures/KeesB.jpeg" width="160">
-  <h3>Kees Benkendorfer</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Haoxing_smaller.jpg" width="76%">
+  <h3>Haoxing Du</h3>
     <div class="negativespace"></div>
-    Reed Undergraduate ('21)<br>
-    ATLAS Anomaly Detection<br>   
-    (now Ph.D. student at Harvard)<br>   
+    UCB Graduate Student <br>Rotation, Spring '22 - Fall '22<br> 
     </center>
   </div>
 
-  <div class="column2">
+   <div class="column2">
     <center>
-    <img src="pictures/diana.jpg" width="160">
-  <h3>Diana Chamaki</h3>
-    <div class="negativespace"></div>
-    UCB Graduate ('21)<br>
-    Quantum Algorithms<br>   
-    </center>
-  </div>
-
-    <div class="column2">
-    <center>
-    <img src="pictures/RebeccaH.jpeg" width="163">
-  <h3>Rebecca Hicks</h3>
-    <div class="negativespace"></div>
-    UCB Undergraduate ('21)<br>
-    Quantum Error Mitigation<br>  
-    (now SULI at LANL)<br>    
-    </center>
-  </div>
-
-  </div>
-
-<br>
-
-<div class="row">
-
-  <div class="column2">
-    <center>
-    <img src="pictures/IMG_0867.jpeg" width="150">
-  <h3>Jason Huang</h3>
-    <div class="negativespace"></div>
-    UCB Graduate ('21)<br>
-    ML for Particle Tracking<br>   
-    (now Ph.D. student at UIUC)<br>    
-    </center>
-  </div>
-
-      <div class="column2">
-    <center>
-    <img src="pictures/Kasia.jpg" width="168">
-  <h3>Kasia Krzyzanska</h3>
-    <div class="negativespace"></div>
-    Princeton Undergraduate <br>
-    REU Summer '21<br>
-    ML for Anomaly Detection<br>    
-    </center>
-  </div>
-
-     <div class="column2">
-    <center>
-    <img src="pictures/ash.jpeg" width="158">
-  <h3>Ashia Lewis</h3>
-    <div class="negativespace"></div>
-    University of Alabama Undergraduate<br>
-    NERSC Summer Intern '21<br> 
-    ML Anomaly Detection<br>  
-    </center>
-  </div>
-
-  </div>
-
-<br>
-
-<div class="row">
-
-
-
-
-  <div class="column2">
-    <center>
-    <img src="pictures/Luc.JPG" width="164">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Luc2.JPG" width="78%">
   <h3>Luc LePottier</h3>
     <div class="negativespace"></div>
-    University of Michigan Graduate ('21)<br>
-    ATLAS Anomaly Detection<br>  
-    (Now Ph.D. student at UC Berkeley)<br>
+    UCB Graduate Student<br> Rotation, Fall '21 - Spring '22<br>
     </center>
   </div>
 
   <div class="column2">
     <center>
-    <img src="pictures/IMG_3321.JPG" width="172"><br>
-    <h3>Joshua Lin</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Yvonne.jpeg" width="80%">
+  <h3>Yvonne Ng</h3>
     <div class="negativespace"></div>
-    UCB Graduate ('20) <br>
-    Generative Models<br>
-    (now Ph.D. student at MIT)<br>
+    UC Irvine Graduate Student (visitor)<br>
+    Fall '20 - Spring '21<br> 
     </center>
   </div>
-
-  <div class="column2">
-    <center>
-    <img src="pictures/AdiS.jpg" width="148"><br>
-    <h3>Adi Suresh</h3>
-    <div class="negativespace"></div>
-    UCB Undergraduate ('22)<br>
-    Deep learning for HEP Phenomology<br>
-    (now Ph.D. student at Stanford)<br>
-    </center>
-  </div>
-
-  </div>
-
-  <br>
-
-<div class="row">
-  <div class="column2">
-    <center>
-    <img src="pictures/Vikas.jpg" width="155"><br>
-    <h3>Vikas Ummadisetty</h3>
-    <div class="negativespace"></div>
-    UCB Undergraduate<br>
-    ML Domain Adaptation<br>
-    </center>
-  </div>
-    </div>
+</div>
 
 <ul>
-<li style="margin-bottom: 5px"> Wyatt Blair [URAP Spring 2019 - Fall 2019] (Machine learning noise mitigation)</li>
-<li style="margin-bottom: 5px"> <a href="https://afspies.com" style="color:#990000;">Alex Spies</a> [URAP Spring 2018 - Spring 2019] (Optimized pixel readout)</li>
-<li style="margin-bottom: 5px"> Charles Johnson [URAP Fall 2018 - Spring 2019] (Radiation damage modeling)</li>
-<li style="margin-bottom: 5px"> <a href="https://www.sambrightthonney.com" style="color:#990000;">Sam Bright-Thonney</a> [URAP Fall 2017 - 2018] (Quark/gluon tagging)</li>
-<li style="margin-bottom: 5px"> <a href="http://harleypatton.com/#/" style="color:#990000;">Harley Patton</a> [URAP Fall 2016 - 2018] (Charged particle ID)</li>
-<li style="margin-bottom: 5px"> Zitong Yang [URAP Fall 2016 - Spring 2017] (Jet calibrations)</li>
-<li style="margin-bottom: 5px"> Yitian Chen [URAP Fall 2016 - Spring 2017] (Optimized pixel readout)</li>
+<li style="margin-bottom: 5px"> Pablo Mart&#237;n [Visitor, Fall 2019] (theory PhD student from Instituto de F&#237;sica Te&#243;rica UAM/CSIC)</li>
+<li style="margin-bottom: 5px"> Gang Zhang [Spring 2019] (experimental PhD student from Tsinghua University)</li>
+<li style="margin-bottom: 5px"> Wanyun Su [Fall 2018] (experimental PhD student from Shanghai)</li>
+<li style="margin-bottom: 5px"> Javier Aparisi Poso [Fall 2018] (experimental PhD student from Valencia)</li>
+<li style="margin-bottom: 5px"> Fuyue Wang [Fall 2016 - Fall 2017] (instrumentation PhD student from Tsinghua University)</li>
+<li style="margin-bottom: 5px"> Michela Paganini [Fall 2016 - Spring 2019] (experimental PhD student from Yale University)</li>
 </ul>
 
 <center>
@@ -560,80 +464,205 @@ div.paperbuttons {
 
   <div class="column2">
     <center>
-    <img src="pictures/zoe.png" width="164">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/zoe.png" width="70%">
   <h3>Zoe Webb-Mack</h3>
     <div class="negativespace"></div>
     SULI Summer '21<br>
-    Quantum Algorithms<br>   
-    (now post-bach <a href="https://library.barnard.edu/news/welcome-zoe" style="color:#990000;">fellow at Barnard</a>)<br>   
+    (Next: post-bach <a href="https://library.barnard.edu/news/welcome-zoe" style="color:#990000;">fellow at Barnard</a>)<br>   
     </center>
   </div>
 
   <div class="column2">
     <center>
-    <img src="pictures/IanLim.jpeg" width="172"><br>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/IanLim.jpeg" width="80%"><br>
     <h3>Ian Lim</h3>
     <div class="negativespace"></div>
     SULI/BLUR Fall '17 - Spring '18 <br>
-    Invisible Higgs decays<br>
-    (now Ph.D. student at UC Davis)<br>
+    (Next: Ph.D. student at UC Davis)<br>
     </center>
   </div>
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Yao.jpeg" width="80%">
+  <h3>Yao Xu</h3>
+    <div class="negativespace"></div>
+    SULI Fall '21<br>  
+    </center>
+  </div>
+
 </div>
 
-
 <center>
-<h3>Graduate Students [Rotation + Visitors]</h3>
+<h3>Undergraduates</h3>
 </center>
 
 <div class="row">
 
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/KeesB.jpeg" width="160">
+  <h3>Kees Benkendorfer</h3>
+    <div class="negativespace"></div>
+    Reed Undergraduate ('21)<br> 
+    (Next: Ph.D. student at Harvard)<br>   
+    </center>
+  </div>
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/diana.jpg" width="160">
+  <h3>Diana Chamaki</h3>
+    <div class="negativespace"></div>
+    UCB Graduate ('21)<br>
+    (Next: Intern at NASA Ames)<br>   
+    </center>
+  </div>
+
+    <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/RebeccaH.jpeg" width="163">
+  <h3>Rebecca Hicks</h3>
+    <div class="negativespace"></div>
+    UCB Undergraduate ('21)<br>
+    (Next: SULI at LANL)<br>    
+    </center>
+  </div>
+
+  </div>
+
+<br>
+
+<div class="row">
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/IMG_0867.jpeg" width="150">
+  <h3>Jason Huang</h3>
+    <div class="negativespace"></div>
+    UCB Graduate ('21)<br>
+    (Next: Ph.D. student at UIUC)<br>    
+    </center>
+  </div>
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/normankarr.jpeg" width="168">
+  <h3>Norman Karr</h3>
+    <div class="negativespace"></div>
+    UCB Undergraduate ('21)<br>
+    </center>
+  </div>
+
+      <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Kasia.jpg" width="168">
+  <h3>Kasia Krzyzanska</h3>
+    <div class="negativespace"></div>
+    Princeton Undergraduate <br>
+    REU Summer '21<br>
+    (Next: Ph.D. student at U. Wisconsin)<br>   
+    </center>
+  </div>
+
+
+
+ 
+
+  </div>
+
+<br>
+
+<div class="row">
+
+
    <div class="column2">
     <center>
-    <img src="pictures/Luc2.JPG" width="160">
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/MVIMG_20191110_150853~2.jpg" width="173">
+  <h3>Jerry Lai</h3>
+    <div class="negativespace"></div>
+    UCB Undergraduate ('21)<br>
+    (Next: Software Engineer at Roblox)<br>
+    </center>
+  </div> 
+
+
+    <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/ash.jpeg" width="158">
+  <h3>Ashia Lewis</h3>
+    <div class="negativespace"></div>
+    University of Alabama Undergraduate<br>
+    NERSC Summer Intern '21<br> 
+    </center>
+  </div>
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Luc.JPG" width="164">
   <h3>Luc LePottier</h3>
     <div class="negativespace"></div>
-    UCB Graduate Student (rotation, Fall '21 - Spring '22)<br>
-    Anomaly Detection<br>
+    University of Michigan Graduate ('21)<br>
+    (Next: Ph.D. student at UC Berkeley)<br>
+    </center>
+  </div>
+
+
+
+  </div>
+
+  <br>
+
+<div class="row">
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/IMG_3321.JPG" width="172"><br>
+    <h3>Joshua Lin</h3>
+    <div class="negativespace"></div>
+    UCB Graduate ('20) <br>
+    (Next: Ph.D. student at MIT)<br>
     </center>
   </div>
 
   <div class="column2">
     <center>
-    <img src="pictures/Yvonne.jpeg" width="164">
-  <h3>Yvonne Ng</h3>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/AdiS.jpg" width="148"><br>
+    <h3>Adi Suresh</h3>
     <div class="negativespace"></div>
-    UC Irvine Graduate Student<br>
-    US ATLAS Center Visitor<br>
-    Fall '20 - Spring '21<br>
-    ML Anomaly Detection<br>   
+    UCB Undergraduate ('22)<br>
+    (Next: Ph.D. student at Stanford)<br>
     </center>
   </div>
-</div>
+
+  <div class="column2">
+    <center>
+    <img src="http://bnachman.web.cern.ch/bnachman/pictures/Vikas.jpg" width="155"><br>
+    <h3>Vikas Ummadisetty</h3>
+    <div class="negativespace"></div>
+    UCB Undergraduate<br>
+    </center>
+  </div>
+
+  
+
+
+    </div>
 
 <ul>
-<li style="margin-bottom: 5px"> Pablo Mart&#237;n [Visitor, Fall 2019] (theory PhD student from Instituto de F&#237;sica Te&#243;rica UAM/CSIC; anomaly detection)</li>
-<li style="margin-bottom: 5px"> Gang Zhang [Spring 2019] (experimental PhD student from Tsinghua University; testbeam analysis)</li>
-<li style="margin-bottom: 5px"> Wanyun Su [Fall 2018] (experimental PhD student from Shanghai; quark/gluon tagging)</li>
-<li style="margin-bottom: 5px"> Javier Aparisi Poso [Fall 2018] (experimental PhD student from Valencia; jet calibrations)</li>
-<li style="margin-bottom: 5px"> Fuyue Wang [Fall 2016 - Fall 2017] (instrumentation PhD student from Tsinghua University)</li>
-<li style="margin-bottom: 5px"> Michela Paganini [Fall 2016 - Spring 2019] (experimental PhD student from Yale University; generative models)</li>
+<li style="margin-bottom: 5px"> Wyatt Blair [URAP Spring 2019 - Fall 2019]</li>
+<li style="margin-bottom: 5px"> <a href="https://afspies.com" style="color:#990000;">Alex Spies</a> [URAP Spring 2018 - Spring 2019]</li>
+<li style="margin-bottom: 5px"> Charles Johnson [URAP Fall 2018 - Spring 2019]</li>
+<li style="margin-bottom: 5px"> <a href="https://www.sambrightthonney.com" style="color:#990000;">Sam Bright-Thonney</a> [URAP Fall 2017 - 2018]</li>
+<li style="margin-bottom: 5px"> <a href="http://harleypatton.com/#/" style="color:#990000;">Harley Patton</a> [URAP Fall 2016 - 2018]</li>
+<li style="margin-bottom: 5px"> Zitong Yang [URAP Fall 2016 - Spring 2017]</li>
+<li style="margin-bottom: 5px"> Yitian Chen [URAP Fall 2016 - Spring 2017]</li>
 </ul>
 
-<center>
-<h3>Postdocs</h3>
-</center>
 
-  <div class="column2">
-    <center>
-    <img src="pictures/Vincent_R._Pascuzzi.jpeg" width="164">
-  <h3>Vincent Pascuzzi</h3>
-    <div class="negativespace"></div>
-    LBNL Postdoc '20-'21<br>
-    Quantum Algorithms<br>  
-    (Now staff at BNL)<br>   
-    </center>
-  </div>
+
+
+
 
 </div>
 
