@@ -149,6 +149,198 @@ div.paperbuttons {
 <br>
 <br>
 <div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">Flows for Flows: Morphing one Dataset into another with Maximum Likelihood Estimation</font></div>
+<div class="paperauthor"><font color="000000">T. Golling, S. Klein, R. Mastandrea, B. Nachman, J. Raine</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2309.06472</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2309.06472.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2309.06472'">Preprint</button><button class="button button5" id="myBtn_230906472abstract">Abstract</button><button class="button button5" id="myBtn_230906472">Cite</button>
+</div>
+<div id="myModal_230906472" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2309.06472,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{T. Golling, S. Klein, R. Mastandrea, B. Nachman, J. Raine}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{Flows for Flows: Morphing one Dataset into another with Maximum Likelihood Estimation}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2309.06472",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230906472"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2309.06472.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230906472">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230906472abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> Flows for Flows: Morphing one Dataset into another with Maximum Likelihood Estimation</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2309.06472.png" height="300">
+</center><br>
+Many components of data analysis in high energy physics and beyond require morphing one dataset into another. This is commonly solved via reweighting, but there are many advantages of preserving weights and shifting the data points instead. Normalizing flows are machine learning models with impressive precision on a variety of particle physics tasks. Naively, normalizing flows cannot be used for morphing because they require knowledge of the probability density of the starting dataset. In most cases in particle physics, we can generate more examples, but we do not know densities explicitly. We propose a protocol called flows for flows for training normalizing flows to morph one dataset into another even if the underlying probability density of neither dataset is known explicitly. This enables a morphing strategy trained with maximum likelihood estimation, a setup that has been shown to be highly effective in related tasks. We study variations on this protocol to explore how far the data points are moved to statistically match the two datasets. Furthermore, we show how to condition the learned flows on particular features in order to create a morphing function for every value of the conditioning feature. For illustration, we demonstrate flows for flows for toy examples as well as a collider physics example involving dijet events<br>
+<span class="close" id="close_230906472abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">Improving Generative Model-based Unfolding with Schrödinger Bridges</font></div>
+<div class="paperauthor"><font color="000000">S. Diefenbacher, G. Liu, V. Mikuni, B. Nachman, W. Nie</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2308.12351</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2308.12351.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2308.12351'">Preprint</button><button class="button button5" id="myBtn_230812351abstract">Abstract</button><button class="button button5" id="myBtn_230812351">Cite</button>
+</div>
+<div id="myModal_230812351" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2308.12351,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{S. Diefenbacher, G. Liu, V. Mikuni, B. Nachman, W. Nie}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{Improving Generative Model-based Unfolding with Schrödinger Bridges}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2308.12351",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230812351"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2308.12351.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230812351">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230812351abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> Improving Generative Model-based Unfolding with Schrödinger Bridges</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2308.12351.png" height="300">
+</center><br>
+Machine learning-based unfolding has enabled unbinned and high-dimensional differential cross section measurements. Two main approaches have emerged in this research area: one based on discriminative models and one based on generative models. The main advantage of discriminative models is that they learn a small correction to a starting simulation while generative models scale better to regions of phase space with little data. We propose to use Schroedinger Bridges and diffusion models to create SBUnfold, an unfolding approach that combines the strengths of both discriminative and generative models. The key feature of SBUnfold is that its generative model maps one set of events into another without having to go through a known probability density as is the case for normalizing flows and standard diffusion models. We show that SBUnfold achieves excellent performance compared to state of the art methods on a synthetic Z+jets dataset.<br>
+<span class="close" id="close_230812351abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">Refining Fast Calorimeter Simulations with a Schrödinger Bridge</font></div>
+<div class="paperauthor"><font color="000000">S. Diefenbacher, V. Mikuni, B. Nachman</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2308.12339</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2308.12339.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2308.12339'">Preprint</button><button class="button button5" id="myBtn_230812339abstract">Abstract</button><button class="button button5" id="myBtn_230812339">Cite</button>
+</div>
+<div id="myModal_230812339" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2308.12339,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{S. Diefenbacher, V. Mikuni, B. Nachman}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{Refining Fast Calorimeter Simulations with a Schrödinger Bridge}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2308.12339",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "physics.ins-det",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230812339"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2308.12339.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230812339">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230812339abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> Refining Fast Calorimeter Simulations with a Schrödinger Bridge</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2308.12339.png" height="300">
+</center><br>
+Machine learning-based simulations, especially calorimeter simulations, are promising tools for approximating the precision of classical high energy physics simulations with a fraction of the generation time. Nearly all methods proposed so far learn neural networks that map a random variable with a known probability density, like a Gaussian, to realistic-looking events. In many cases, physics events are not close to Gaussian and so these neural networks have to learn a highly complex function. We study an alternative approach: Schrödinger bridge Quality Improvement via Refinement of Existing Lightweight Simulations (SQuIRELS). SQuIRELS leverages the power of diffusion-based neural networks and Schrödinger bridges to map between samples where the probability density is not known explicitly. We apply SQuIRELS to the task of refining a classical fast simulation to approximate a full classical simulation. On simulated calorimeter events, we find that SQuIRELS is able to reproduce highly non-trivial features of the full simulation with a fraction of the generation time.<br>
+<span class="close" id="close_230812339abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">CaloScore v2: Single-shot Calorimeter Shower Simulation with Diffusion Models</font></div>
+<div class="paperauthor"><font color="000000">V. Mikuni, B. Nachman</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2308.03847</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2308.03847.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2308.03847'">Preprint</button><button class="button button5" id="myBtn_230803847abstract">Abstract</button><button class="button button5" id="myBtn_230803847">Cite</button>
+</div>
+<div id="myModal_230803847" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2308.03847,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{V. Mikuni, B. Nachman}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{CaloScore v2: Single-shot Calorimeter Shower Simulation with Diffusion Models}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2308.03847",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230803847"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2308.03847.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230803847">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230803847abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> CaloScore v2: Single-shot Calorimeter Shower Simulation with Diffusion Models</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2308.03847.png" height="300">
+</center><br>
+Diffusion generative models are promising alternatives for fast surrogate models, producing high-fidelity physics simulations. However, the generation time often requires an expensive denoising process with hundreds of function evaluations, restricting the current applicability of these models in a realistic setting. In this work, we report updates on the CaloScore architecture, detailing the changes in the diffusion process, which produces higher quality samples, and the use of progressive distillation, resulting in a diffusion model capable of generating new samples with a single function evaluation. We demonstrate these improvements using the Calorimeter Simulation Challenge 2022 dataset.<br>
+<span class="close" id="close_230803847abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">The Interplay of Machine Learning--based Resonant Anomaly Detection Methods</font></div>
+<div class="paperauthor"><font color="000000">T. Golling, G. Kasieczka, C. Krause, R. Mastandrea, B. Nachman, J. Raine, D. Sengupta, D. Shih, M. Sommerhalder</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2307.11157</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2307.11157.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2307.11157'">Preprint</button><button class="button button5" id="myBtn_230711157abstract">Abstract</button><button class="button button5" id="myBtn_230711157">Cite</button>
+</div>
+<div id="myModal_230711157" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2307.11157,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{T. Golling, G. Kasieczka, C. Krause, R. Mastandrea, B. Nachman, J. Raine, D. Sengupta, D. Shih, M. Sommerhalder}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{The Interplay of Machine Learning--based Resonant Anomaly Detection Methods}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2307.11157",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230711157"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2307.11157.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230711157">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230711157abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> The Interplay of Machine Learning--based Resonant Anomaly Detection Methods</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2307.11157.png" height="300">
+</center><br>
+Machine learning--based anomaly detection (AD) methods are promising tools for extending the coverage of searches for physics beyond the Standard Model (BSM). One class of AD methods that has received significant attention is resonant anomaly detection, where the BSM is assumed to be localized in at least one known variable. While there have been many methods proposed to identify such a BSM signal that make use of simulated or detected data in different ways, there has not yet been a study of the methods' complementarity. To this end, we address two questions. First, in the absence of any signal, do different methods pick the same events as signal-like? If not, then we can significantly reduce the false-positive rate by comparing different methods on the same dataset. Second, if there is a signal, are different methods fully correlated? Even if their maximum performance is the same, since we do not know how much signal is present, it may be beneficial to combine approaches. Using the Large Hadron Collider (LHC) Olympics dataset, we provide quantitative answers to these questions. We find that there are significant gains possible by combining multiple methods, which will strengthen the search program at the LHC and beyond.<br>
+<span class="close" id="close_230711157abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation</font></div>
+<div class="paperauthor"><font color="000000">F. Acosta, V. Mikuni, B. Nachman, M. Arratia, K. Barish, B. Karki, R. Milton, P. Karande, A. Angerami</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2307.04780</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2307.04780.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2307.04780'">Preprint</button><button class="button button5" id="myBtn_230704780abstract">Abstract</button><button class="button button5" id="myBtn_230704780">Cite</button>
+</div>
+<div id="myModal_230704780" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2307.04780,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{F. Acosta, V. Mikuni, B. Nachman, M. Arratia, K. Barish, B. Karki, R. Milton, P. Karande, A. Angerami}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2307.04780",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "cs.LG",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230704780"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2307.04780.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230704780">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230704780abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2307.04780.png" height="300">
+</center><br>
+Score based generative models are a new class of generative models that have been shown to accurately generate high dimensional calorimeter datasets. Recent advances in generative models have used images with 3D voxels to represent and model complex calorimeter showers. Point clouds, however, are likely a more natural representation of calorimeter showers, particularly in calorimeters with high granularity. Point clouds preserve all of the information of the original simulation, more naturally deal with sparse datasets, and can be implemented with more compact models and data files. In this work, two state-of-the-art score based models are trained on the same set of calorimeter simulation and directly compared.<br>
+<span class="close" id="close_230704780abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
 <div class="papertitle"><font color="3D79AA">Learning to Isolate Muons in Data</font></div>
 <div class="paperauthor"><font color="000000">E. Witkowski, B. Nachman, D. Whiteson</font></div>
 <div class="papercite"><font color="31C3D0">e-Print: 2306.15737</font></div>
@@ -209,6 +401,38 @@ We use unlabeled collision data and weakly-supervised learning to train models w
 </center><br>
 Methods for anomaly detection of new physics processes are often limited to low-dimensional spaces due to the difficulty of learning high-dimensional probability densities. Particularly at the constituent level, incorporating desirable properties such as permutation invariance and variable-length inputs becomes difficult within popular density estimation methods. In this work, we introduce a permutation-invariant density estimator for particle physics data based on diffusion models, specifically designed to handle variable-length inputs. We demonstrate the efficacy of our methodology by utilizing the learned density as a permutation-invariant anomaly detection score, effectively identifying jets with low likelihood under the background-only hypothesis. To validate our density estimation method, we investigate the ratio of learned densities and compare to those obtained by a supervised classification algorithm.<br>
 <span class="close" id="close_230603933abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">Fitting a Deep Generative Hadronization Model</font></div>
+<div class="paperauthor"><font color="000000">J. Chan, X. Ju, A. Kania, B. Nachman, V. Sangli, A. Siodmok</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2305.17169</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2305.17169.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2305.17169'">Preprint</button><button class="button button5" id="myBtn_230517169abstract">Abstract</button><button class="button button5" id="myBtn_230517169">Cite</button>
+</div>
+<div id="myModal_230517169" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2305.17169,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{J. Chan, X. Ju, A. Kania, B. Nachman, V. Sangli, A. Siodmok}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{Fitting a Deep Generative Hadronization Model}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2305.17169",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_230517169"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2305.17169.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_230517169">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_230517169abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> Fitting a Deep Generative Hadronization Model</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2305.17169.png" height="300">
+</center><br>
+Hadronization is a critical step in the simulation of high-energy particle and nuclear physics experiments. As there is no first principles understanding of this process, physically-inspired hadronization models have a large number of parameters that are fit to data. Deep generative models are a natural replacement for classical techniques, since they are more flexible and may be able to improve the overall precision. Proof of principle studies have shown how to use neural networks to emulate specific hadronization when trained using the inputs and outputs of classical methods. However, these approaches will not work with data, where we do not have a matching between observed hadrons and partons. In this paper, we develop a protocol for fitting a deep generative hadronization model in a realistic setting, where we only have access to a set of hadrons in data. Our approach uses a variation of a Generative Adversarial Network with a permutation invariant discriminator. We find that this setup is able to match the hadronization model in Herwig with multiple sets of parameters. This work represents a significant step forward in a longer term program to develop, train, and integrate machine learning-based hadronization models into parton shower Monte Carlo programs.<br>
+<span class="close" id="close_230517169abstract">&times;</span>
 <br><br><br><br><br><br><br>
 	</div>
 </div>
@@ -6660,6 +6884,192 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 <script>
+var modal_230906472 = document.getElementById("myModal_230906472");
+var btn_230906472 = document.getElementById("myBtn_230906472");
+var span_230906472 = document.getElementById("close_230906472");
+btn_230906472.onclick = function() {modal_230906472.style.display = "block";}
+span_230906472.onclick = function() {modal_230906472.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230906472) {modal_230906472.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230906472(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230906472').onclick = function() {
+  Clipboard_CopyTo_230906472('@article{2309.06472,\n      author="{T. Golling, S. Klein, R. Mastandrea, B. Nachman, J. Raine}",\n      title="{Flows for Flows: Morphing one Dataset into another with Maximum Likelihood Estimation}",\n      eprint="2309.06472",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230906472abstract = document.getElementById("myModal_230906472abstract");
+var btn_230906472abstract = document.getElementById("myBtn_230906472abstract");
+var span_230906472abstract = document.getElementById("close_230906472abstract");
+btn_230906472abstract.onclick = function() {modal_230906472abstract.style.display = "block";}
+span_230906472abstract.onclick = function() {modal_230906472abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230906472abstract) {modal_230906472abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230812351 = document.getElementById("myModal_230812351");
+var btn_230812351 = document.getElementById("myBtn_230812351");
+var span_230812351 = document.getElementById("close_230812351");
+btn_230812351.onclick = function() {modal_230812351.style.display = "block";}
+span_230812351.onclick = function() {modal_230812351.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230812351) {modal_230812351.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230812351(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230812351').onclick = function() {
+  Clipboard_CopyTo_230812351('@article{2308.12351,\n      author="{S. Diefenbacher, G. Liu, V. Mikuni, B. Nachman, W. Nie}",\n      title="{Improving Generative Model-based Unfolding with Schrödinger Bridges}",\n      eprint="2308.12351",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230812351abstract = document.getElementById("myModal_230812351abstract");
+var btn_230812351abstract = document.getElementById("myBtn_230812351abstract");
+var span_230812351abstract = document.getElementById("close_230812351abstract");
+btn_230812351abstract.onclick = function() {modal_230812351abstract.style.display = "block";}
+span_230812351abstract.onclick = function() {modal_230812351abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230812351abstract) {modal_230812351abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230812339 = document.getElementById("myModal_230812339");
+var btn_230812339 = document.getElementById("myBtn_230812339");
+var span_230812339 = document.getElementById("close_230812339");
+btn_230812339.onclick = function() {modal_230812339.style.display = "block";}
+span_230812339.onclick = function() {modal_230812339.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230812339) {modal_230812339.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230812339(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230812339').onclick = function() {
+  Clipboard_CopyTo_230812339('@article{2308.12339,\n      author="{S. Diefenbacher, V. Mikuni, B. Nachman}",\n      title="{Refining Fast Calorimeter Simulations with a Schrödinger Bridge}",\n      eprint="2308.12339",\n      archivePrefix = "arXiv",\n      primaryClass = "physics.ins-det",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230812339abstract = document.getElementById("myModal_230812339abstract");
+var btn_230812339abstract = document.getElementById("myBtn_230812339abstract");
+var span_230812339abstract = document.getElementById("close_230812339abstract");
+btn_230812339abstract.onclick = function() {modal_230812339abstract.style.display = "block";}
+span_230812339abstract.onclick = function() {modal_230812339abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230812339abstract) {modal_230812339abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230803847 = document.getElementById("myModal_230803847");
+var btn_230803847 = document.getElementById("myBtn_230803847");
+var span_230803847 = document.getElementById("close_230803847");
+btn_230803847.onclick = function() {modal_230803847.style.display = "block";}
+span_230803847.onclick = function() {modal_230803847.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230803847) {modal_230803847.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230803847(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230803847').onclick = function() {
+  Clipboard_CopyTo_230803847('@article{2308.03847,\n      author="{V. Mikuni, B. Nachman}",\n      title="{CaloScore v2: Single-shot Calorimeter Shower Simulation with Diffusion Models}",\n      eprint="2308.03847",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230803847abstract = document.getElementById("myModal_230803847abstract");
+var btn_230803847abstract = document.getElementById("myBtn_230803847abstract");
+var span_230803847abstract = document.getElementById("close_230803847abstract");
+btn_230803847abstract.onclick = function() {modal_230803847abstract.style.display = "block";}
+span_230803847abstract.onclick = function() {modal_230803847abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230803847abstract) {modal_230803847abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230711157 = document.getElementById("myModal_230711157");
+var btn_230711157 = document.getElementById("myBtn_230711157");
+var span_230711157 = document.getElementById("close_230711157");
+btn_230711157.onclick = function() {modal_230711157.style.display = "block";}
+span_230711157.onclick = function() {modal_230711157.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230711157) {modal_230711157.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230711157(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230711157').onclick = function() {
+  Clipboard_CopyTo_230711157('@article{2307.11157,\n      author="{T. Golling, G. Kasieczka, C. Krause, R. Mastandrea, B. Nachman, J. Raine, D. Sengupta, D. Shih, M. Sommerhalder}",\n      title="{The Interplay of Machine Learning--based Resonant Anomaly Detection Methods}",\n      eprint="2307.11157",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230711157abstract = document.getElementById("myModal_230711157abstract");
+var btn_230711157abstract = document.getElementById("myBtn_230711157abstract");
+var span_230711157abstract = document.getElementById("close_230711157abstract");
+btn_230711157abstract.onclick = function() {modal_230711157abstract.style.display = "block";}
+span_230711157abstract.onclick = function() {modal_230711157abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230711157abstract) {modal_230711157abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230704780 = document.getElementById("myModal_230704780");
+var btn_230704780 = document.getElementById("myBtn_230704780");
+var span_230704780 = document.getElementById("close_230704780");
+btn_230704780.onclick = function() {modal_230704780.style.display = "block";}
+span_230704780.onclick = function() {modal_230704780.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230704780) {modal_230704780.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230704780(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230704780').onclick = function() {
+  Clipboard_CopyTo_230704780('@article{2307.04780,\n      author="{F. Acosta, V. Mikuni, B. Nachman, M. Arratia, K. Barish, B. Karki, R. Milton, P. Karande, A. Angerami}",\n      title="{Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation}",\n      eprint="2307.04780",\n      archivePrefix = "arXiv",\n      primaryClass = "cs.LG",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230704780abstract = document.getElementById("myModal_230704780abstract");
+var btn_230704780abstract = document.getElementById("myBtn_230704780abstract");
+var span_230704780abstract = document.getElementById("close_230704780abstract");
+btn_230704780abstract.onclick = function() {modal_230704780abstract.style.display = "block";}
+span_230704780abstract.onclick = function() {modal_230704780abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230704780abstract) {modal_230704780abstract.style.display = "none";}})
+</script>
+<script>
 var modal_230615737 = document.getElementById("myModal_230615737");
 var btn_230615737 = document.getElementById("myBtn_230615737");
 var span_230615737 = document.getElementById("close_230615737");
@@ -6720,6 +7130,37 @@ var span_230603933abstract = document.getElementById("close_230603933abstract");
 btn_230603933abstract.onclick = function() {modal_230603933abstract.style.display = "block";}
 span_230603933abstract.onclick = function() {modal_230603933abstract.style.display = "none";}
 window.addEventListener("click", function(event) {if (event.target == modal_230603933abstract) {modal_230603933abstract.style.display = "none";}})
+</script>
+<script>
+var modal_230517169 = document.getElementById("myModal_230517169");
+var btn_230517169 = document.getElementById("myBtn_230517169");
+var span_230517169 = document.getElementById("close_230517169");
+btn_230517169.onclick = function() {modal_230517169.style.display = "block";}
+span_230517169.onclick = function() {modal_230517169.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230517169) {modal_230517169.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_230517169(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_230517169').onclick = function() {
+  Clipboard_CopyTo_230517169('@article{2305.17169,\n      author="{J. Chan, X. Ju, A. Kania, B. Nachman, V. Sangli, A. Siodmok}",\n      title="{Fitting a Deep Generative Hadronization Model}",\n      eprint="2305.17169",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_230517169abstract = document.getElementById("myModal_230517169abstract");
+var btn_230517169abstract = document.getElementById("myBtn_230517169abstract");
+var span_230517169abstract = document.getElementById("close_230517169abstract");
+btn_230517169abstract.onclick = function() {modal_230517169abstract.style.display = "block";}
+span_230517169abstract.onclick = function() {modal_230517169abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_230517169abstract) {modal_230517169abstract.style.display = "none";}})
 </script>
 <script>
 var modal_230510500 = document.getElementById("myModal_230510500");
