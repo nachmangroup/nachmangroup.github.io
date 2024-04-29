@@ -149,6 +149,38 @@ div.paperbuttons {
 <br>
 <br>
 <div class="filterDiv stat qcd">
+<div class="papertitle"><font color="3D79AA">OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks</font></div>
+<div class="paperauthor"><font color="000000">V. Mikuni, B. Nachman</font></div>
+<div class="papercite"><font color="31C3D0">e-Print: 2404.16091</font></div>
+<div class="paperbuttons"><button class="button button5" onclick="location.href='https://arxiv.org/pdf/2404.16091.pdf'">PDF</button><button class="button button5" onclick="location.href='https://arxiv.org/abs/2404.16091'">Preprint</button><button class="button button5" id="myBtn_240416091abstract">Abstract</button><button class="button button5" id="myBtn_240416091">Cite</button>
+</div>
+<div id="myModal_240416091" class="modal">
+	<div class="modal-content">
+	  <h2> Cite Article</h2>
+@article{2404.16091,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      author="{V. Mikuni, B. Nachman}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title="{OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks}",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      eprint="2404.16091",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix = "arXiv",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass = "hep-ph",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = "2023"}<br>
+<br><br>
+	  <button class="button button5" id="Copy_240416091"><img src="icons/copy.png" style="height:15px;"><font size="4"> Copy</font></button><button class="button button5"><a href="refs/2404.16091.bib" style="text-decoration: none; color:black" download><img src="icons/download.png" style="height:15px;"><font size="4"> Download</font></a></button><span class="close" id="close_240416091">&times;</span>
+	</div>
+</div>
+</div>
+<div id="myModal_240416091abstract" class="modal">
+	<div class="modal-content">
+<center>
+	  <h2> OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks</h2>
+<img src="http://bnachman.web.cern.ch/bnachman/refs/2404.16091.png" height="300">
+</center><br>
+Machine learning has become an essential tool in jet physics. Due to their complex, high-dimensional nature, jets can be explored holistically by neural networks in ways that are not possible manually. However, innovations in all areas of jet physics are proceeding in parallel. We show that specially constructed machine learning models trained for a specific jet classification task can improve the accuracy, precision, or speed of all other jet physics tasks. This is demonstrated by training on a particular multiclass classification task and then using the learned representation for different classification tasks, for datasets with a different (full) detector simulation, for jets from a different collision system ($pp$ versus $ep$), for generative models, for likelihood ratio estimation, and for anomaly detection. Our OmniLearn approach is thus a foundation model and is made publicly available for use in any area where state-of-the-art precision is required for analyses involving jets and their substructure.<br>
+<span class="close" id="close_240416091abstract">&times;</span>
+<br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="filterDiv stat qcd">
 <div class="papertitle"><font color="3D79AA">Anomaly detection with flow-based fast calorimeter simulators</font></div>
 <div class="paperauthor"><font color="000000">C. Krause, B. Nachman, I. Pang, D. Shih, Y. Zhu</font></div>
 <div class="papercite"><font color="31C3D0">e-Print: 2312.11618</font></div>
@@ -7106,6 +7138,37 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+</script>
+<script>
+var modal_240416091 = document.getElementById("myModal_240416091");
+var btn_240416091 = document.getElementById("myBtn_240416091");
+var span_240416091 = document.getElementById("close_240416091");
+btn_240416091.onclick = function() {modal_240416091.style.display = "block";}
+span_240416091.onclick = function() {modal_240416091.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_240416091) {modal_240416091.style.display = "none";}})
+</script>
+
+<script>
+function Clipboard_CopyTo_240416091(value) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy_240416091').onclick = function() {
+  Clipboard_CopyTo_240416091('@article{2404.16091,\n      author="{V. Mikuni, B. Nachman}",\n      title="{OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks}",\n      eprint="2404.16091",\n      archivePrefix = "arXiv",\n      primaryClass = "hep-ph",\n      year = "2023"}\n');
+}
+</script>
+<script>
+var modal_240416091abstract = document.getElementById("myModal_240416091abstract");
+var btn_240416091abstract = document.getElementById("myBtn_240416091abstract");
+var span_240416091abstract = document.getElementById("close_240416091abstract");
+btn_240416091abstract.onclick = function() {modal_240416091abstract.style.display = "block";}
+span_240416091abstract.onclick = function() {modal_240416091abstract.style.display = "none";}
+window.addEventListener("click", function(event) {if (event.target == modal_240416091abstract) {modal_240416091abstract.style.display = "none";}})
 </script>
 <script>
 var modal_231211618 = document.getElementById("myModal_231211618");
